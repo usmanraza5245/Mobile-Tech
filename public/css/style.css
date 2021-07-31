@@ -1,0 +1,177 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.text-orange{
+    color: orange !important;
+}
+/*.fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+.fixed-top.scrolled .navbar-nav li a{
+    color: #000 !important;
+}
+.fixed-top.scrolled .navbar-brand{
+    color: #000;
+}*/
+.border {
+    border: 1px solid #f1cfcf !important;
+}
+.bg-light-dark {
+    background-color: #bbb;;
+}
+.card-finder{
+    background-color: #f7d290;
+}
+.card-finder:hover{
+    background-color: #e0a947;
+}
+.card-finder .nav-link span{
+    color: #000 !important;
+}
+.card-finder:hover .card-finder .nav-link span{
+    color: #000 !important;
+}
+.card-title .nav-link {
+    padding:0 !important;
+}
+.row {
+    --bs-gutter-x:0 !important;
+}
+.phonefind{
+    background-color: skyblue;
+}
+.list-group-item{
+    padding:3px 0px !important;
+    border: none;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: inherit;
+}
+
+.list-group-item .nav-link{
+    padding: 3px;
+    color: black;
+}
+.list-group-item:hover{
+    background-color: #f5d7a2;
+}
+.list-group-item:hover .list-group-item .nav-link{
+    color: white !important;
+}
+
+.lat-devices{
+    overflow: hidden;
+    overflow-y: auto;
+    max-height: 390px;
+    background-color: lightgray;
+}
+.lat-devices .col-md-4{
+    background-color: silver;
+    border-radius: 15px;
+}
+
+.lat-devices .col-md-4 .card{
+    border: none !important;
+}
+
+.lat-devices .col-md-4 .card a.stretched-link{
+    color: black !important;
+    text-decoration: none;
+}
+.lat-devices .col-md-4:hover .lat-devices .card a.stretched-link{
+    color: red !important;
+    text-decoration:red !important;
+}
+
+
+.card-body-color{
+    background-color: silver;
+}
+.card-body-color img{
+    border-radius: 10px;
+}
+.fs-7{
+    font-size: 13px;
+    font-weight: bold;
+}
+.bgtb-row{
+    background-color: lightgray !important;
+}
+.bgtb-row2{
+    background-color: #f5c979 !important ;
+}
+.main_content .card{
+    border-radius: 20px;
+    background-color: silver;
+}
+.main_content .card img{
+    border-radius: 10px;
+}
+
+@media(min-width:768px) {
+    .news-input{
+        width: 50%;
+    }
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+  .carousel-item{
+
+    width: 100%; /*width you want*/
+
+    height: 600px; /*height you want*/
+
+    overflow: hidden;
+
+}
+
+.carousel-item img{
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+}
+
+table.table {
+    border-color: #9ea2a7 !important;
+}
+#similar-price .card{
+    border: none !important;
+}
+#similar-price .card a.stretched-link{
+    color: black !important;
+    text-decoration: none;
+}
+
+#similar-price .card:hover  #similar-price a.stretched-link{
+    color: red !important;
+    text-decoration: red;
+}
